@@ -1,5 +1,5 @@
 Ruby
 ====
 
-We adhear to the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
-and related [Rails Style Guide](https://github.com/bbatsov/rails-style-guide).
+1.  We adhear to the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
+2.  We adhear to the [Rails Style Guide](https://github.com/bbatsov/rails-style-guide).
