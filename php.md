@@ -39,3 +39,17 @@ In addition to PSR-2, the Engineering team adheres to the following conventions 
     <p><?=$var?></p>
     <p><?= $var; ?></p>
     ```
+
+2.  Line up object operators (`->`):
+
+    ```php
+    // good
+    $AnObject->foo()
+             ->bar()
+             ->baz();
+
+    // bad
+    $AnObject->foo()
+        ->bar()
+        ->baz();
+    ```
