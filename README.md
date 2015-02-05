@@ -2,7 +2,7 @@ Monk Conventions
 ================
 
 Monk Conventions is a collection of coding and development conventions that the
-development team at Monk adhears to.
+Engineering team at Monk adheres to.
 
 Organization
 ------------
