@@ -23,3 +23,9 @@ PHP
     *   [PHPCDC](https://github.com/sebastianbergmann/phpdcd)
     *   [SensioLabs Security Checker](https://github.com/sensiolabs/security-checker)
     *   [PHP Mess Detector](http://phpmd.org)
+
+Coding Style Guide
+--------------------
+
+In addition to PSR-2, the Engineering team adheres to the following conventions when coding in PHP.
+
