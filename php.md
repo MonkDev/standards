@@ -29,3 +29,13 @@ Coding Style Guide
 
 In addition to PSR-2, the Engineering team adheres to the following conventions when coding in PHP.
 
+1.  Use `echo` shortcut syntax within HTML blocks. Variable should be surrounded by spaces and omit semicolons:
+
+    ```html
+    <!-- good -->
+    <p><?= $var ?></p>
+
+    <!-- bad -->
+    <p><?=$var?></p>
+    <p><?= $var; ?></p>
+    ```
