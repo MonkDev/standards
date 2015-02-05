@@ -37,10 +37,3 @@ Ordered lists are helpful for easy reference:
 2.  This is another convention.
 3.  And another convention.
 ```
-
-Contributing
-------------
-
-Discussion on new and existing conventions should happen first using GitHub
-Issues. Once the conventions are agreed upon, create a Pull Request with the
-changes.
