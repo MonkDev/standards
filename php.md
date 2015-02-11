@@ -48,6 +48,27 @@ In addition to PSR-2, the Engineering team adheres to the following conventions 
              ->bar()
              ->baz();
 
+    // good
+    $AnObject
+        ->foo(
+            really,
+            long,
+            argument,
+            names
+        )
+        ->bar(
+            really,
+            long,
+            argument,
+            names
+        )
+        ->baz(
+            really,
+            long,
+            argument,
+            names
+        );
+
     // bad
     $AnObject->foo()
         ->bar()
