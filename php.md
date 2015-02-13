@@ -23,3 +23,54 @@ PHP
     *   [PHPCDC](https://github.com/sebastianbergmann/phpdcd)
     *   [SensioLabs Security Checker](https://github.com/sensiolabs/security-checker)
     *   [PHP Mess Detector](http://phpmd.org)
+
+Coding Style Guide
+--------------------
+
+In addition to PSR-2, the Engineering team adheres to the following conventions when coding in PHP.
+
+1.  Use `echo` shortcut syntax within HTML blocks. Variable should be surrounded by spaces and omit semicolons:
+
+    ```html
+    <!-- good -->
+    <p><?= $var ?></p>
+
+    <!-- bad -->
+    <p><?=$var?></p>
+    <p><?= $var; ?></p>
+    ```
+
+2.  Line up object operators (`->`):
+
+    ```php
+    // good
+    $AnObject->foo()
+             ->bar()
+             ->baz();
+
+    // good
+    $AnObject
+        ->foo(
+            really,
+            long,
+            argument,
+            names
+        )
+        ->bar(
+            really,
+            long,
+            argument,
+            names
+        )
+        ->baz(
+            really,
+            long,
+            argument,
+            names
+        );
+
+    // bad
+    $AnObject->foo()
+        ->bar()
+        ->baz();
+    ```
