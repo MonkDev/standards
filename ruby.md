@@ -19,9 +19,10 @@ Rails
 
 1.  We adhere to the [Rails Style Guide](https://github.com/bbatsov/rails-style-guide).
 2.  Configuration should be done with [Figaro](https://github.com/laserlemon/figaro).
-3.  In addition to the code quality and analysis tools mentioned previously,
-    [rails_best_practices](https://github.com/railsbp/rails_best_practices)
-    should be used to detect violations of Rails best practices.
+3.  In addition to the code quality and analysis tools mentioned for Ruby in
+    general, the following Rails-specific tools should be used if possible:
+    *   [rails_best_practices](https://github.com/railsbp/rails_best_practices)
+    *   [Brakeman](http://brakemanscanner.org)
 
 Bundler
 -------
