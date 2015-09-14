@@ -25,17 +25,18 @@ PHP
     *   [PHP Mess Detector](http://phpmd.org)
 
 Coding Style Guide
---------------------
+------------------
 
-In addition to PSR-2, the Engineering team adheres to the following conventions when coding in PHP.
+In addition to PSR-2, we adhere to the following coding style rules:
 
-1.  Use `echo` shortcut syntax within HTML blocks. Variable should be surrounded by spaces and omit semicolons:
+1.  Use `echo` shortcut syntax within HTML blocks. Variable should be surrounded
+    by spaces and omit semicolons:
 
     ```html
-    <!-- good -->
+    <!-- Good -->
     <p><?= $var ?></p>
 
-    <!-- bad -->
+    <!-- Bad -->
     <p><?=$var?></p>
     <p><?= $var; ?></p>
     ```
@@ -43,12 +44,12 @@ In addition to PSR-2, the Engineering team adheres to the following conventions 
 2.  Line up object operators (`->`):
 
     ```php
-    // good
+    // Good
     $AnObject->foo()
              ->bar()
              ->baz();
 
-    // good
+    // Good
     $AnObject
         ->foo(
             really,
@@ -69,7 +70,7 @@ In addition to PSR-2, the Engineering team adheres to the following conventions 
             names
         );
 
-    // bad
+    // Bad
     $AnObject->foo()
         ->bar()
         ->baz();
