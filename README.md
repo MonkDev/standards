@@ -1,17 +1,16 @@
-Monk Conventions
-================
+Standards
+=========
 
-Monk Conventions is a collection of coding and development conventions that the
-Engineering team at Monk adheres to.
+Coding and development standards that we follow on the Engineering team.
 
 Organization
 ------------
 
 There should be one [Markdown](https://help.github.com/articles/github-flavored-markdown)
 file per topic, whether that's a language, framework, tool, etc. For example,
-all conventions dealing with the Ruby language should be placed in `ruby.md`.
-Ruby on Rails conventions can be included in the same file, but should be split
-out to `ruby_on_rails.md` when they become significant enough.
+all standards dealing with the Ruby language should be placed in `ruby.md`. Ruby
+on Rails standards can be included in the same file, but should be split out to
+`ruby_on_rails.md` when they become significant enough.
 
 Format
 ------
@@ -33,7 +32,7 @@ Testing
 Ordered lists are helpful for easy reference:
 
 ```
-1.  This is the first convention.
-2.  This is another convention.
-3.  And another convention.
+1.  This is the first standard.
+2.  This is another standard.
+3.  And another standard.
 ```
