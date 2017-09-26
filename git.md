@@ -48,3 +48,13 @@ with a few key differences and additions:
     and fixed-up as necessary: `git rebase -i dev`. For most changes, this
     usually means fixing-up all commits into one; however, more is acceptable to
     remain atomic.
+
+Code review tips
+----------------
+
+- Submitters should provide some context as to why the change needs to be made.
+- "Review the right things": developers need not spend much time reviewing things like code formatting and indentation (submitted code should already be formatted according to our standards). Ensuring that the code is understandable and maintainable is what's important.
+- Reviewers do not need to request changes to participate in a code review. Simply reading the changes and helping the submitter think through its implications is very helpful.
+- Be open to constructive criticism and new approaches. It's more important that the _code_ is correct than _you_ are correct.
+- Remember that an approved pull request does not necessarily mean that your changes won't break things. The submitter is ultimately responsible for testing and facilitating a smooth release.
+- Keep a positive attitude and enjoy the process. You love coding and sharing your work!
