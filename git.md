@@ -52,6 +52,8 @@ with a few key differences and additions:
 Code review tips
 ----------------
 
+> _"If you want to go fast, go alone. If you want to go far, go together."_ - African proverb
+
 - Submitters should provide some context as to why the change needs to be made.
 - "Review the right things": developers need not spend much time reviewing things like code formatting and indentation (submitted code should already be formatted according to our standards). Ensuring that the code is understandable and maintainable is what's important.
 - Reviewers do not need to request changes to participate in a code review. Simply reading the changes and helping the submitter think through its implications is very helpful.
