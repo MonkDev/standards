@@ -13,5 +13,5 @@ HTML & CSS
     [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin), and
     [grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin).
 7.  Browser normalization should be done with [Normalize.css](https://necolas.github.io/normalize.css/).
-8.  We support the [same browsers and devices as Bootstrap](http://getbootstrap.com/getting-started/#support)
+8.  We support the [same browsers and devices as Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/)
     with one exception: IE 9 and above, instead of IE 8 and above.
